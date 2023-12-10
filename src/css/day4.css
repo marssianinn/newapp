@@ -1,0 +1,177 @@
+.day4{
+    background:black;
+    padding: 105px 0 98px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.day4::before{
+    content: '';
+    background: linear-gradient(0deg, #000 0.15%, rgba(0, 0, 0, 0.57) 52.30%, rgba(0, 0, 0, 0.00) 92.77%), rgba(0, 0, 0, 0.00);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -199px;
+    left: 0;
+    z-index: 2;
+}
+.day4::after{
+    content: '';
+    background: url("../images/chaika.png") center/cover no-repeat;
+    width: 373px;
+    height: 315px;
+    position: absolute;
+    right: 502px;
+    bottom: -50px;
+}
+.day4__point{
+    position: relative;
+    left: -80px;
+    top: 52px;
+}
+.day4__depart{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+}
+.day4__depart::before{
+    content: 'День 4. ';
+    color: #F47648;
+}
+.day4__block-text{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.day4__text{
+    color: #ACACAC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+}
+.underline{
+    color: #ACACAC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+    text-decoration: underline;
+}
+.day4__slide{
+    display: flex;
+    position: absolute;
+    top:149px;
+    column-gap: 32px;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.day4__card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 220px 32px 24px;
+    width: 348px;
+    height: 348px;
+    background: url("../images/image 80.png") center/cover no-repeat;
+    position: relative;
+}
+.day4__card::before{
+    content: '';
+    background: linear-gradient(360deg, #000 1.71%, rgba(0, 0, 0, 0.57) 61.81%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.00);
+    width: 322px;
+    height: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 13px;
+}
+.day4__card-title{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: 700;
+}
+.day4__card-text{
+    color: #BDBDBD;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 400;
+}
+.day4__card2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 197px 0 17px 32px;
+    width: 300px;
+    height: 300px;
+    background: url("../images/image 37.png") center/cover no-repeat;
+    position: relative;
+}
+.day4__card2::before{
+    content: '';
+    background: linear-gradient(360deg, #000 1.71%, rgba(0, 0, 0, 0.57) 61.81%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.00);
+    width: 274px;
+    height: 50%;
+    position: absolute;
+    bottom:19px;
+    left:13px;
+}
+.day4__card2-title{
+    color: #FFFFFF;
+    position: relative;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+.day4__card2-text{
+    color: #BDBDBD;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    z-index: 2;
+}
+.day4__card3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 197px 0 17px 32px;
+    width: 300px;
+    height: 300px;
+    background: url("../images/day1.1 53.png") center/cover no-repeat;
+    position: relative;
+}
+.day4__card3::before{
+    content: '';
+    background: linear-gradient(360deg, #000 1.71%, rgba(0, 0, 0, 0.57) 61.81%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.00);
+    width: 276px;
+    height: 50%;
+    position: absolute;
+    bottom:17px;
+    left:12px;
+}
+.day4__card3-title{
+    color: #FFFFFF;
+    position: relative;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+.day4__card3-text{
+    color: #BDBDBD;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    z-index: 2;
+}

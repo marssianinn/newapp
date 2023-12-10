@@ -1,0 +1,86 @@
+.airplane{
+    position: relative;
+    padding: 533px 0 32px;
+    left: 0;
+    width: 100%;
+    height: 1081px;
+    background: url('../images/image 87.png') center/cover no-repeat;
+    z-index: -10;
+    top: -100px;
+}
+.airplane::before{
+    content: "";
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.69) 21.39%, rgba(255, 255, 255, 0.44) 45.16%, rgba(255, 255, 255, 0.17) 76.30%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.00);
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    z-index: -5;
+}
+.airplane::after{
+    content: '';
+    background: linear-gradient(0deg, #000 10.42%, rgba(0, 0, 0, 0.63) 59.38%, rgba(0, 0, 0, 0.00) 100%);
+    width: 100%;
+    height: 840px;
+    position: absolute;
+    bottom: -100px;
+    z-index: -5;
+}
+.airplane__picture{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 104px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    z-index:-6;
+    top: 150px;
+    color: #00000025;
+
+}
+.airplane__picture::before{
+    content: '';
+    background: url("../images/pngwing 2.png")center/cover no-repeat;
+    width: 576px;
+    height: 373px;
+    position: absolute;
+    top: -70px;
+    right: 0;
+    z-index: 3;
+}
+.airplane__picture::after{
+    content: '';
+    background: linear-gradient(186deg, #FFF 0%, rgba(255, 255, 255, 0.69) 21.39%, rgba(255, 255, 255, 0.17) 41.27%, rgba(255, 255, 255, 0.00) 71.20%), rgba(255, 255, 255, 0.00);
+    width: 100%;
+    height: 500px;
+    top: -150px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.airplane__title{
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+}
+.airplane__subtitle{
+    margin: 32px 0 13px;
+    color: #DEDEDE;
+    font-weight: 300;
+}
+.airplane__text{
+    color: #FFF;
+    font-weight: 500;
+}
+.airplane__text::after{
+    content:  '@max_max';
+    text-decoration: underline;
+}

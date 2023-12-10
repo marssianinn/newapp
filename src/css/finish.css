@@ -1,0 +1,139 @@
+.finish{
+    padding: 63px 0 30px;
+    background: #212121;
+}
+.finish__block{
+    display: flex;
+
+}
+.finish__column1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 39px;
+}
+.finish__svg1{
+    display: flex;
+    column-gap: 17px;
+    margin-bottom: 41px;
+}
+.finish__text1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.finish__column1-text{
+    color:#BABABA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.finish__column2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 39px;
+    border-right: 1px solid #363636;
+    border-left: 1px solid #363636;
+
+}
+.finish__inst-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+.finish__inst{
+    color:#BABABA;
+    font-size: 16px;
+    font-weight: 700;
+}
+.finish__btn{
+    color: #FFF;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 34px;
+    border-radius: 5px;
+    border:1px solid #363636 ;
+}
+.finish__box-img{
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+
+}
+.finish__img{
+    width: 98px;
+    height: 103px;
+}
+.finish__column3{
+    width: 30%;
+    padding: 0 41px;
+    border-right: 1px solid #363636;
+}
+.finish__column3-box{
+    left: 80px;
+    margin-bottom: 72px;
+    position: relative;
+}
+.finish__column3-box::before{
+    position: absolute;
+    content: '';
+    background: url("../images/Снимок экрана 2023-08-02 221533.png") center/cover no-repeat;
+    width: 63px;
+    height: 102px;
+    border-radius: 6px;
+    left: -80px;
+
+}
+.finish__column3-text{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px; /* 150% */
+    margin-bottom: 10px;
+}
+.finish__svg-box{
+    display: flex;
+    column-gap: 16px;
+}
+.finish__column4{
+    padding-left:41px;
+}
+.finish__column4-text1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.finish__column4-text2{
+    color: #BABABA;
+    font-size: 14px;
+    font-weight: 400;
+}
+.finish__column4-text3{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pre-finish{
+    display: flex;
+    row-gap: 12px;
+    margin-right: 34px;
+}
+.pre-finish1{
+    display: flex;
+    column-gap: 8px;
+}
+.finish__hr{
+    margin: 47px 0 22px;
+    background: #363636;
+    width: 100%;
+    height: 2px;
+
+}
+.finish__last-element{
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 14px;
+    font-weight: 400;
+}

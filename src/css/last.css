@@ -1,0 +1,38 @@
+.last{
+    padding: 120px 0 254px;
+}
+.last__title{
+    color: #121212;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.last__text{
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 59px 0 79px;
+}
+.last__slide{
+    display: flex;
+    column-gap: 96px;
+}
+.last__card{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(33.33333% - 64px);
+
+
+}
+.last__card-img{
+    width: 352px;
+    height: 466px;
+}
+.last__card-text{
+    margin-top: 24px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}

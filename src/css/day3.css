@@ -1,0 +1,133 @@
+.day3{
+    position: relative;
+    padding: 80px 0 287px;
+    height: 1000px;
+    width: 100%;
+}
+.day3::before{
+    content: '';
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(180deg, #FFF 1.71%, rgba(255, 255, 255, 0.57) 61.81%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.00);
+    position: absolute;
+    left: 0;
+    bottom: 369px;
+    z-index: -1;
+}
+.day3::after{
+    content: '';
+    background: url("../images/day3 1.png") center/cover no-repeat;
+    width: 100%;
+    height:579px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.day3__container{
+    display: flex;
+    column-gap: 300px;
+    position: relative;
+}
+.day3__slides{
+    display: flex;
+    column-gap: 32px;
+    margin-top: 49px;
+    position: absolute;
+    align-items: center;
+    left: -400px;
+}
+.day3__card1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 182px 0 32px;
+    width: 300px;
+    height: 300px;
+    background: url("../images/image 37.png") center/cover no-repeat;
+    position: relative;
+}
+.day3__card1::before{
+    content: '';
+    background: linear-gradient(360deg, #000 1.71%, rgba(0, 0, 0, 0.57) 61.81%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.00);
+    width: 274px;
+    height: 50%;
+    position: absolute;
+    bottom:19px;
+    left:13px;
+}
+.day3__card2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 220px 32px 24px;
+    width: 348px;
+    height: 348px;
+    background: url("../images/day1.1 53.png") center/cover no-repeat;
+    position: relative;
+}
+.day3__card2::before{
+    content: '';
+    background: linear-gradient(360deg, #000 1.71%, rgba(0, 0, 0, 0.57) 61.81%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.00);
+    width: 321px;
+    height: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 14px;
+}
+.day3__card-title1{
+    color:#FFF;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+.day3__card-text1{
+    color:#BABABA;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    z-index: 1;
+}
+.day3__card-title2{
+    color:#FFF;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+.day3__card-text2{
+    color:#BABABA;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    z-index: 1;
+}
+.day3__block{
+    position: absolute;
+    right: 0;
+}
+.day3__point{
+    position: absolute;
+    top: 10px;
+    left: -66px;
+}
+.day3__title{
+    color: #212121;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 48px;
+}
+.day3__title::before{
+    content: 'День 3.';
+    color: var(--orange);
+    font-size: 40px;
+    font-weight: 700;
+}
+.day3__text{
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px
+}

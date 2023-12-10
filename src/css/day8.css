@@ -1,0 +1,40 @@
+.day8{
+    position: relative;
+    margin: 0 auto;
+    padding: 271px 0 131px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 718px;
+    background: url("../images/day8.png") center/cover no-repeat;
+}
+/*.day8__end{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+.day8__point{
+    position: absolute;
+    left: -80px;
+    top: 52px;
+}
+.day8__title{
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 48px;
+}
+.day8__title::before{
+    content:'День 8.' ;
+    color: #F47648;
+}
+.day8__text{
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}

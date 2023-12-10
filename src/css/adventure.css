@@ -1,0 +1,45 @@
+.adventure{
+    position: relative;
+    background: transparent;
+    padding: 120px 0 37px;
+    z-index: 5;
+}
+.adventure__title{
+    color: #121212;
+    font-size: 48px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+}
+.adventure__subtitle{
+    color: #31313180;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 27px 0 35px;
+}
+.adventure__text{
+    color: #31313180;
+    line-height: 24px;
+    margin-bottom: 64px;
+}
+.adventure__end{
+    display: flex;
+    column-gap: 64px;
+}
+.adventure__block{
+    display: flex;
+    flex-direction: column;
+}
+.adventure__vector{
+
+}
+.adventure__block-text{
+    margin-top: 8px;
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+}
+.adventure__block-text2{
+    color: #212121;
+    font-weight: 700;
+}

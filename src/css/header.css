@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    background: transparent;
+    padding: 35px;
+    position: absolute;
+    z-index: 10;
+}
+.header__left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    column-gap: 64px;
+
+}
+.header__logo{
+    cursor: pointer;
+}
+.header__menu{
+    display: flex;
+    column-gap: 56px;
+    align-items: center;
+
+}
+.header__link{
+    color: #275553;
+}
+.btn-green{
+    border: 1px solid #275553;;
+    color: #275553;
+    padding: 11px 32px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

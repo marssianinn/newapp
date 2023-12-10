@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    resize: none;
+    color:#313131;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+:root{
+ --orange:#F47648;
+}
+.container{
+
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #F47648;
+}
+.subtitle{
+    line-height: 24px;
+    color: #ACACAC;
+}
+.btnOrange{
+    cursor: pointer;
+    background-color: var(--orange);
+    border-radius: 5px;
+    border: none;
+    color:#FFFFFF;
+}
+.btn{
+    background: transparent;
+
+}
+
+
